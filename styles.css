@@ -1,0 +1,47 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    background: #222;
+}
+
+#main {
+    margin: auto;
+    display: block;
+    background: #000;
+    image-rendering: crisp-edges;             /* Older versions of FF          */
+    image-rendering: -moz-crisp-edges;          /* FF 6.0+                       */
+    image-rendering: -webkit-optimize-contrast; /* Safari                        */
+    image-rendering: -o-crisp-edges;            /* OS X & Windows Opera (12.02+) */
+    image-rendering: pixelated;                 /* Awesome future-browsers       */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE                            */
+    /*width: 276px;
+    height: 366px;*/
+    /*border: solid 1px #444;*/
+}
+
+#wrapper {
+    border: solid 1px #444;
+    margin: auto;
+}
+#moves, #teleports {
+    font-size: 16px;
+    color: darkgrey;
+    float: left;
+    font-family: 'small skinny', calibri, arial;
+}
+#level, #bombs {
+    font-size: 16px;
+    color: darkgrey;
+    float: right;
+    font-family: 'small skinny', calibri, arial;
+}
+#instructions {
+    color: #777;
+    margin: 10px;
+    text-align: center;
+    width: 100%
+}
+.clear {
+    clear:both;
+}

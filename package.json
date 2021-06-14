@@ -1,0 +1,14 @@
+{
+  "name": "killer-robot-attack",
+  "version": "1.0.0",
+  "description": "html5 game",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server . -o"
+  },
+  "author": "skeddles",
+  "license": "UNLICENCED",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
